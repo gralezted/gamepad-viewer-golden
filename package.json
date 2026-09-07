@@ -1,0 +1,21 @@
+{
+    "name": "gamepad-viewer-pink",
+    "version": "1.0.0",
+    "private": true,
+    "description": "Gamepad Viewer with Black/Pink DualSense skin - Perfect for TikTok streaming",
+    "homepage": "https://gamepad-pink.vercel.app/",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gralezted/gamepad-viewer-golden.git"
+    },
+    "license": "MIT",
+    "scripts": {
+        "test": "playwright test",
+        "lint": "biome lint .",
+        "lint:fix": "biome lint --write ."
+    },
+    "devDependencies": {
+        "@biomejs/biome": "2.5.4",
+        "@playwright/test": "1.61.1"
+    }
+}
